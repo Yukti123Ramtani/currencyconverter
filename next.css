@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #0057ff, #00c2ff);
+}
+
+/* Enlarged container */
+.container {
+  background-color: #ffcc00;
+  padding: 3rem; /* increased from 2rem */
+  border-radius: 1.5rem;
+  width: 400px; /* increased from 320px */
+  min-height: 60vh; /* increased from 45vh */
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
+  text-align: center;
+}
+
+/* Title */
+.container h2 {
+  color: #000;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem; /* slightly larger text */
+}
+
+/* Form styling */
+form {
+  margin: 2rem 0 1rem 0;
+}
+
+form p {
+  font-weight: 600;
+  color: #000;
+  text-align: left;
+  margin-bottom: 0.3rem;
+  font-size: 1rem;
+}
+
+/* Input field */
+form input {
+  width: 100%;
+  height: 3.2rem;
+  border-radius: 1.5rem;
+  border: none;
+  outline: none;
+  padding: 0 1rem;
+  font-size: 1.1rem;
+  text-align: center;
+  background: #fff;
+  color: #333;
+  font-weight: 600;
+}
+
+/* Dropdown containers */
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.dropdown i {
+  font-size: 1.8rem;
+  color: #000;
+}
+
+.select-container {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 1.5rem;
+  padding: 0.4rem 1rem;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.15);
+}
+
+.select-container img {
+  width: 36px; /* slightly larger flags */
+  height: 36px;
+  margin-right: 0.5rem;
+  border-radius: 50%;
+}
+
+.select-container select {
+  border: none;
+  background: transparent;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #000;
+  cursor: pointer;
+  outline: none;
+}
+
+/* Conversion message */
+.msg {
+  margin: 2.5rem 0;
+  background: #fff;
+  border-radius: 1.5rem;
+  padding: 1rem;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+/* Button */
+form button {
+  width: 100%;
+  height: 3.2rem;
+  background: linear-gradient(90deg, #ff0000, #8000ff);
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 1.5rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+form button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
+}
